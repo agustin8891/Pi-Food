@@ -14,7 +14,7 @@ La idea general es crear una aplicación en la cual se puedan ver distintas rece
 - Filtrarlos / Ordenarlos
 - Crear nuevas recetas propias
 
-__IMPORTANTE__: Para poder utilizar esta API externa es necesario usar una api key, la cual se mostrará en el presente texto (son las 'API_PASSWORD' que se escribirán en el archivo .env). Esta api key tiene un límite de 150 peticiones por día, por lo que se debe usar con cuidado.
+IMPORTANTE: Debido a que la api tiene una api key, la cual permite un número limitado de peticiones, se creó un archivo llamado dataApiFood.json, el cual simula la api y se traen los datos desde ahi. El código que hace las peticiones a la api está como comentario.
 
 Pasos para poder ver el proyecto:
 
